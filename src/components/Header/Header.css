@@ -1,0 +1,43 @@
+.header-container {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.nav-search {
+    width: 95%;
+    height: 40px;
+    border: none;
+    text-indent: 10px;
+    outline: none;
+}
+
+.header-search-container {
+    width: 70%;
+}
+
+.header-link {
+    padding: 20px 0;
+    cursor: pointer;
+    color: black;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid #6b6868;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-search:hover, .nav-search:focus  {
+    outline: none;
+}
+
+.nav-link {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+}
