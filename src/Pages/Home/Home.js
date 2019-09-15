@@ -1,9 +1,14 @@
 import React from 'react';
+import "./Home.css";
+import DetailSearch from "../../components/DetailSearch/DetailSearch";
+
 
 function Home() {
     return (
-        <div>
-            <h1>This is HOME Page</h1>
+        <div className="home-container">
+            <div className="container home-wrap">
+                <DetailSearch />
+            </div>
         </div>
     );
 }

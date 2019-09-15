@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faPoo, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faPoo, faSearch, faAnchor } from '@fortawesome/free-solid-svg-icons'
 
 import { checkUsernameAvailability } from '../../util/createQuery';
 import "./Header.css";
@@ -9,7 +9,7 @@ function bootstrappedNav() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light header-container">
             <a className="navbar-brand" href="#">
-                <FontAwesomeIcon icon={faPoo} size="2x" />
+                <FontAwesomeIcon icon={faAnchor} size="2x" color="#ff5a5f" />
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
